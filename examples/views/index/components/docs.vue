@@ -1,6 +1,6 @@
 <!-- docs -->
 <template>
-    <div>导航页</div>
+    <div></div>
 </template>
 
 <script>

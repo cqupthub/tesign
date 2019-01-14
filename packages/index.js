@@ -8,11 +8,13 @@
 import TButton from './Button/index';
 import TLayout from './Layout/index';
 import TDragBox from './DragBox/index';
+import TPagination from './Pagination/index';
 
 const components = [
     TButton,
     TLayout,
-    TDragBox
+    TDragBox,
+    TPagination
 ];
 
 const install = function(Vue) {
@@ -28,5 +30,6 @@ export default {
     install,
     TButton,
     TLayout,
-    TDragBox
+    TDragBox,
+    TPagination
 };
